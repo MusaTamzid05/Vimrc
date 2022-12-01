@@ -32,6 +32,9 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 call plug#end()
 
+ nnoremap <C-f> :Files<Cr>
+ nnoremap <C-d> :Ag <C-R><C-W><CR>
+
 " Autopair in vanila vim
 
 inoremap " ""<left>
